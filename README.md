@@ -26,7 +26,8 @@ function (person, petName){
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>This program will take two inputs; a persons name and a pet's name. It then will reference an array known as "dogs" if the inputted pet name is equevelent to a value found in the dogs array under the "name" expression it will then return the value of "dog" if the name is not foubnd in the dog array, it will then be unnable to perform the return of "dog" and thus would be considered "undefined"</td>
+    <td>This program will take two inputs; a persons name and a pet's name. It then will reference an array known as "dogs" if the inputted pet name is equevelent to a value found in the dogs array under the "name" expression it will then return the value of "dog" if the name is not foubnd in the dog array, it will then be unnable to perform the return of "dog" and thus would be considered "undefined". In our test, we use "Clyde" as a dog, and we will assume that Clyde is apart of the array we cannot be certain as ourt example does not allow us acces, for the purpposes of this proof we will suspend our disblelief that Clyde is not a dog. Binx however is a 
+cat! there is no part of our prgram that refers to the array "cats" and therefore will not be able to retrive a value for "binx" thus will come back undifined.</td>
   </tr>
 </table>
 
