@@ -19,15 +19,15 @@ function (person, petName){
 
 | Input | Output |
 | ------------------- | --------- |
-|   Shawn, Clyde      |   dog     | 
-|   Allison, Clyde    |   dog     | 
-|   Alexis, Binx      | undefined | 
+|   (Shawn, Clyde) = { for (dog in Shawn.dogs)= true { if dog.name === Clyde) = true     |  { dog }    | 
+|   (Allison, Korra) = { for (dog in Allison.dogs)= true { if dog.name === Korra) = true |  { dog }    | 
+|   (Alexis, Binx) = { for (dog in Alexis.dogs)= true { if dog.name === Binx) = flase    | undefined   | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td>This program will take two inputs; a persons name and a pet's name. It then will reference an array known as "dogs" if the inputted pet name is equevelent to a value found in the dogs object under the "name" expression it will then return the value of "dog" if the name is not foubnd in the dogs object, it will then be unnable to perform the return of "dog" and thus would be considered "undefined". In our test, we use "Clyde" as a dog, and we will assume that Clyde is apart of the object we cannot be certain as ourt example does not allow us acces, for the purpposes of this proof we will suspend our disblelief that Clyde is not a dog. Binx however is a 
-cat! there is no part of our prgram that refers to the object "cats" and therefore will not be able to retrive a value for "binx" thus will come back undifined.</td>
+    <td>This program will take two inputs; a persons name and a pet's name. It then will reference an object known as "dogs" if the inputted person is within the object of dogs, it will be considered "true" and move into the if function, which will attempt to find an eqaul value beteen the inputted petName to the dogs object of "dog.name". If there is a mtaching value the return will read "dog". If the name is not foubnd in the dogs object, it will then be unnable to perform the return of "dog" and thus would be considered "undefined". In our test, we use "Clyde" as a dog, and we will assume that Clyde is apart of the object we cannot be certain as ourt example does not allow us acces, for the purpposes of this proof we will suspend our disblelief that Clyde is not a dog. Binx however is a 
+cat! Even if Alexis is a name found within the scope of "dogs" as sher is a dog owner, the name "Binx" wopuld not have an equevelent value; As there is no part of our prgram that refers to the object "cats", and therefore will not be able to retrive a value for "binx", thus will come back undifined.</td>
   </tr>
 </table>
 
