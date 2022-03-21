@@ -19,9 +19,9 @@ function (person, petName){
 
 | Input | Output |
 | ------------------- | --------- |
-|   (Shawn, Clyde) = { for (dog in Shawn.dogs)= true { if dog.name === Clyde) = true     |  { dog }    | 
-|   (Allison, Korra) = { for (dog in Allison.dogs)= true { if dog.name === Korra) = true |  { dog }    | 
-|   (Alexis, Binx) = { for (dog in Alexis.dogs)= true { if dog.name === Binx) = flase    | undefined   | 
+|   (Shawn, Clyde) = { for (dog in Shawn.dogs)= true { if dog.name === Clyde) = true     |  { dog }       | 
+|   (Allison, Korra) = { for (dog in Allison.dogs)= true { if dog.name === Korra) = true |  { dog }       | 
+|   (Alexis, Binx) = { for (dog in Alexis.dogs)= true { if dog.name === Binx) = flase    | { undefined }  | 
 
 <table>
   <tr>
