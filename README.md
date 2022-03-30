@@ -18,10 +18,10 @@ function (person, petName){
 ```
 
 | Input | Output |
-| ---------------------------------------------------------- | --------- |
-|   ( dogs : [{ name: "Clyde"}, { name: "Korra" }], "Clyde") |  dog      | 
-| (dogs : [{ name: "Clyde"}, { name: "Korra" }], "Korra")    |  dog      | 
-|   (dogs : [{ name: "Clyde"}, { name: "Korra" }], "Binx")   | undefined | 
+| ---------------------------------------------------------- | -------------- |
+|   {dogs: [{ name: "Clyde"}, { name: "Korra" }]}, "Clyde"  |  {name: Clyde}  | 
+| {dogs: [{ name: "Clyde"}, { name: "Korra" }]}, "Korra"    |  {name: Korra}  | 
+|   {dogs : [{ name: "Clyde"}, { name: "Korra" }]}, "Binx"  | undefined       | 
 
 <table>
   <tr>
